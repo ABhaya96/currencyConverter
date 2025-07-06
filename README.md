@@ -53,7 +53,7 @@ The application features a clean, modern interface with:
    ```
 
 2. **Open your browser**
-   Navigate to `http://localhost:5000`
+   Navigate to `http://localhost:8080`
 
 3. **Convert currencies**
    - Select the source currency
@@ -70,7 +70,7 @@ The application features a clean, modern interface with:
 ### Convert Currency Example
 
 ```bash
-curl -X POST http://localhost:5000/convert \
+curl -X POST http://localhost:8080/convert \
   -H "Content-Type: application/json" \
   -d '{
     "from_currency": "USD",
