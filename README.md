@@ -1,6 +1,6 @@
 # Currency Converter
 
-A modern, responsive web application for converting currencies using real-time exchange rates from the Fixer.io API.
+A modern, responsive web application for converting currencies using real-time exchange rates from the Exchange Rate API.
 
 ## Features
 
@@ -22,7 +22,7 @@ The application features a clean, modern interface with:
 ## Prerequisites
 
 - Python 3.7 or higher
-- A Fixer.io API key (free tier available)
+- No API key required (uses free Exchange Rate API)
 
 ## Installation
 
@@ -43,22 +43,7 @@ The application features a clean, modern interface with:
    pip install -r requirements.txt
    ```
 
-4. **Set up environment variables**
-   ```bash
-   cp env.example .env
-   ```
-   
-   Edit `.env` and add your Fixer.io API key:
-   ```
-   FIXER_API_KEY=your_actual_api_key_here
-   ```
-
-## Getting an API Key
-
-1. Visit [Fixer.io](https://fixer.io/)
-2. Sign up for a free account
-3. Get your API key from the dashboard
-4. Add it to your `.env` file
+4. **Ready to run!** No API key setup required.
 
 ## Usage
 
@@ -125,7 +110,7 @@ currencyConverter/
 
 - **Backend**: Python Flask
 - **Frontend**: HTML5, CSS3, JavaScript (ES6+)
-- **API**: Fixer.io Currency API
+- **API**: Exchange Rate API (free, no key required)
 - **Styling**: Custom CSS with modern design patterns
 - **Icons**: Font Awesome
 - **Fonts**: Inter (Google Fonts)
@@ -162,10 +147,10 @@ This project is open source and available under the [MIT License](LICENSE).
 ## Support
 
 If you encounter any issues:
-1. Check that your API key is correctly set in the `.env` file
-2. Verify your internet connection
-3. Ensure all dependencies are installed
-4. Check the browser console for any JavaScript errors
+1. Verify your internet connection
+2. Ensure all dependencies are installed
+3. Check the browser console for any JavaScript errors
+4. The Exchange Rate API is free and doesn't require authentication
 
 ## Future Enhancements
 
